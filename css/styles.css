@@ -1,0 +1,115 @@
+/*  Colors */
+/*  #DCD7C9 */
+/*  #A27B5C */
+/*  #3F4E4F */
+/*  #2C3639 */
+
+* {
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #DCD7C9;
+  margin: 0;
+  color: #3F4E4F;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.container .card{
+  background-color: white;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h1, h2{
+  font-weight: 700;
+  margin: 0;
+}
+
+header .avatar{
+  margin-right: 20px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  background: url(../images/avatar.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p{
+  font-weight: 300;
+}
+
+a{
+  color: #A27B5C;
+  text-decoration: none;
+}
+
+.btn{
+  margin: 10px 0;
+  background-color: #2C3639;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  display: inline;
+  margin-right: 10px;
+}
+
+i {
+  margin-top: 20px;
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
