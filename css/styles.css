@@ -55,7 +55,7 @@ header .avatar{
   height: 75px;
   width: 75px;
   border-radius: 50%;
-  background: url(../images/avatar.jpg) center;
+  background: url("https://avatars.githubusercontent.com/u/32631203?v=4") center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -93,15 +93,11 @@ a:hover{
 
 .primary-link{
   margin: 10px 0;
-  background-color: #2C3639;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
-  transition: 0.5s;
 }
 
 .primary-link:hover{
   box-shadow: 5px 5px 0px #a27b5c;
+  transition: all 300ms ease-in-out;
 }
 
 ul{
@@ -119,10 +115,6 @@ i {
   font-size: 50px;
   color: rgb(230, 230, 230);
   transition: 0.5s;
-}
-
-.secondary-link:hover i{
-  color: #2C3639;
 }
 
 @media (max-width: 960px) {
